@@ -22,6 +22,7 @@ html{
 	--pinkcolor:#ff4e94;
 	--purplecolor:#933f95;
 	--bgpink:rgba(214,51,132,0.02);
+	overflow-x: hidden;
 }
 
 ::selection{
@@ -190,7 +191,7 @@ h2{
 
 
 .about{
-	height: 100vh;
+	/*height: 100vh;*/
 	width: 100vw;
 	background-size: cover;
 	background:url(../images/about-bg.png);
@@ -455,7 +456,7 @@ footer ul:hover h3:before{
 	width: 50%;
 }
 
-footer ul:first-child{
+footer ul:first-child , footer ul:nth-child(3){
 	padding-left: 50px;
 }
 
